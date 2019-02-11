@@ -1,0 +1,29 @@
+﻿<Window x:Class="LibraryProject.AddItem"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LibraryProject"
+        mc:Ignorable="d"
+        Title="AddItem" Background="Gray" Height="300" Width="400">
+    <Grid>
+        <Rectangle Fill="LightGray" HorizontalAlignment="Left" Height="177" Margin="10,35,0,0" Stroke="Black" VerticalAlignment="Top" Width="372"/>
+        <Label Content="Add Item" HorizontalAlignment="Left" FontSize="20" Margin="144,-2,0,0" VerticalAlignment="Top"/>
+        <Button Name="AddBtn" Content="Add" HorizontalAlignment="Left" Margin="208,217,0,0" VerticalAlignment="Top" Width="148" Height="42" Click="Add_ItemEvent"/>
+        <Button Name="ExitBtn" Content="Exit" HorizontalAlignment="Left" Margin="37,217,0,0" VerticalAlignment="Top" Width="148" Height="42" Click="ExitBtn_Click"/>
+        <TextBox Name="NameTxt" HorizontalAlignment="Left" Height="23" Margin="78,45,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Name : " HorizontalAlignment="Left" Margin="22,45,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="EditionTxt" HorizontalAlignment="Left" Height="23" Margin="78,84,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Edition : " HorizontalAlignment="Left" Margin="22,84,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="CopiesTxt" HorizontalAlignment="Left" Height="23" Margin="77,125,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Copies : " HorizontalAlignment="Left" Margin="22,125,0,0" VerticalAlignment="Top"/>
+        <Label Content="Theme : " HorizontalAlignment="Left" Margin="202,45,0,0" VerticalAlignment="Top"/>
+        <Label Content="Category : " HorizontalAlignment="Left" Margin="190,148,0,0" VerticalAlignment="Top"/>
+        <ComboBox Name="ThemeCombo" HorizontalAlignment="Left" Margin="257,45,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox Name="CategoryCombo" HorizontalAlignment="Left" Margin="257,148,0,0" VerticalAlignment="Top" Width="120"/>
+        <RadioButton Name="BookRadio" Content="Book" HorizontalAlignment="Left" Margin="22,162,0,0" VerticalAlignment="Top"/>
+        <RadioButton Name="JournalRadion" Content="Journal" HorizontalAlignment="Left" Margin="22,182,0,0" VerticalAlignment="Top"/>
+        <Label Content="Price" HorizontalAlignment="Left" Margin="116,156,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="PriceTxt" HorizontalAlignment="Left" Height="23" Margin="91,182,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+    </Grid>
+</Window>

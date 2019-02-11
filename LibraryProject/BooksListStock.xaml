@@ -1,0 +1,14 @@
+﻿<Window x:Class="LibraryProject.BooksListStock"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LibraryProject"
+        mc:Ignorable="d"
+        Title="BooksListStock" Height="400" Width="300">
+    <Grid>
+        <ComboBox Name="BookListCombo" HorizontalAlignment="Left" Margin="10,24,0,0" VerticalAlignment="Top" Width="272" Height="25" SelectionChanged="ComboBox_SelectionChanged"/>
+        <TextBlock Name="InfoTxt" HorizontalAlignment="Left" Margin="13,62,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="297" Width="269"/>
+
+    </Grid>
+</Window>
