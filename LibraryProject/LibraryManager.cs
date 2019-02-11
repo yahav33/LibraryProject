@@ -124,7 +124,7 @@ namespace LibraryProject
                 return money;
             return -1;
         }
-
+        // TEST CHANGE
         public static bool CheckIfBookNotExisted(string name)
         {
             var a = BookLib.ItemCollection.abstractItems.Find((b) => b.Name.ToLower() == name.ToLower());
